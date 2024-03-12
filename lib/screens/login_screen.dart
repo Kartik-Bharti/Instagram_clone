@@ -152,7 +152,7 @@ class _LoginscreenState extends State<Loginscreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const Text(
-                      "Don't have an account? ",
+                      "Don't have an account?",
                       style: TextStyle(fontWeight: FontWeight.w300),
                     ),
                     GestureDetector(

@@ -105,7 +105,8 @@ class Authservices {
     }
   }
 
-  // Sign out
+  // *********************************
+  // *********** Sign out ************
   Future<void> signout(context) async {
     try {
       await firebaseAuth.signOut();
